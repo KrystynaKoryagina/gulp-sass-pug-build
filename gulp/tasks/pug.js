@@ -3,6 +3,7 @@
 module.exports = function () {
     $.gulp.task('pug', function() {
         return $.gulp.src($.path.src.pug)
+            .pipe($.gp.plumber())
             .pipe($.gp.pug({
                 pretty: true
             }))

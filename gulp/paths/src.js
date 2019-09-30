@@ -9,5 +9,6 @@ module.exports = {
     fonts: './app/fonts/*',
     jsLibs: './app/js/libs/*',
     js: './app/js/*.js',
-    sprite: './app/img/sprite/*.png',
+    sprite: './app/img/sprite/png/*.png',
+    spriteSvg: './app/img/sprite/svg/*.svg',
 };

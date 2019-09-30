@@ -7,9 +7,10 @@ module.exports = {
     pug: './app/',
     img: './dist/img/',
     fonts: './dist/fonts/',
-    cssLibs: './app/style/css/libs/',
+    cssLibs: './app/style/scss/libs/',
     jsLibs: './app/js/libs/',
     js: './dist/js/',
-    spriteCss: './app/style/css/',
-    spriteImg: './dist/img/sprite/'
+    spriteCss: './app/style/scss/sprite',
+    spriteImg: './dist/img/sprite/',
+    spriteSvg: './dist/img/sprite/'
 };

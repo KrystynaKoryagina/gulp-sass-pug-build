@@ -13,5 +13,6 @@ module.exports = [
     './gulp/tasks/css:libs.js',
     './gulp/tasks/js:libs.js',
     './gulp/tasks/js:build.js',   
-    './gulp/tasks/sprite.js'
+    './gulp/tasks/sprite.js',
+    './gulp/tasks/sprite:svg.js'
 ];

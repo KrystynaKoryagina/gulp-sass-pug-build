@@ -2,7 +2,7 @@
 
 module.exports = function() {
     $.gulp.task('imagemin', function() {
-        return $.gulp.src([$.path.src.img, `!${$.path.src.sprite}`])
+        return $.gulp.src([$.path.src.img, `!${$.path.src.sprite}`, `!${$.path.src.spriteSvg}`])
         .pipe($.gp.cache($.gp.imagemin([
             $.gp.imagemin.jpegtran({progressive: true}),
             $.gp.imagemin.optipng({optimizationLevel: 3}),
