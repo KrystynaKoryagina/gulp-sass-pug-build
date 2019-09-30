@@ -25,7 +25,8 @@ $.gulp.task('default', $.gulp.series(
         'sass',
         'css:libs',
         'js:libs',
-        'sprite'
+        'sprite',
+        'sprite:svg'
     ),
     $.gulp.parallel(
         'copy',
