@@ -1,6 +1,6 @@
 # Gulp build PUG + SCSS
 
-![Image of Gulp build](https://miro.medium.com/max/600/1*riaSTUNDrUA8r9m1X-WjnA.png)]
+![Image of Gulp build](https://miro.medium.com/max/600/1*riaSTUNDrUA8r9m1X-WjnA.png)
 
 ### Install
 - install [Node.js](https://nodejs.org/) to use Gulp 4
