@@ -10,6 +10,7 @@
 - clone the repository `$ git clone https://github.com/KrystynaKoryagina/gulp-sass-pug-build.git`
 - go to the folder `$ cd gulp-sass-pug-build`
 - install packages from package.json: `$ npm i`
+- start: `$ gulp`
 
 ### Gulp plugins
   - `gulp-load-plugins` - loads Gulp plugins from package dependencies and attaches them to an object
